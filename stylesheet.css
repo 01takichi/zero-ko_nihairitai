@@ -1,0 +1,189 @@
+.title {
+  padding-left: 460px;
+  font-size: 40px;
+  color:#008000;
+  background-color:#ffd700;
+}
+a{
+  color: #0000ff;
+}
+body{
+  background-color: #00ffff;
+}
+.Headline{
+  color:#ff8c00;
+  font-size: 28px;
+}
+.box20 {
+    position: relative;
+    padding: 0.25em 1em;
+    margin: 2em 0;
+    top: 0;
+    background: #efefef;
+}
+.box20:before, .box20:after{
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 10px;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box20:before{
+    border-left: dotted 2px #15adc1;
+    border-top: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    left: 0;
+}
+.box20:after{
+    border-top: dotted 2px #15adc1;
+    border-right: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    right: 0;
+}
+.box20 p {
+    margin: 0;
+    padding: 0;
+}
+table{
+  font-size:20px;
+}
+table td{
+  padding:20px;
+}
+.person{
+  background-color:#3CB371;
+}
+.contents{
+  background-color:#FF8C00;
+}
+.color1{
+  background-color:#1E90FF;
+}
+.color2{
+  background-color:#FFD700;
+}
+.Headline2{
+  color:#FF1493;
+}
+.next{
+  color:#FF0000;
+}
+.q{
+  color:#0000FF
+}
+.a{
+  color:#FF0000;
+}
+.so{
+  color:#008000;
+}
+.now{
+  color:#9932CC;
+}
+.what{
+  color:#FF0000;
+}
+ul, ol {
+  background: #fcfcfc;/*背景色*/
+  padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+  border: solid 3px gray;/*線の種類 太さ 色*/
+}
+
+ul li, ol li {
+  line-height: 1.5; /*文の行高*/
+  padding: 0.5em 0; /*前後の文との余白*/
+}
+.point li{
+  color:#0000FF;
+}
+li{
+  font-size:20px
+}
+.notes{
+  padding-bottom:50px;
+}
+.continue{
+  padding-bottom:50px;
+}
+.list{
+  padding-bottom:20px;
+}
+.partner{
+  color:#FF4500
+}
+.activity{
+  color:#008000;
+}
+.trigger1,.trigger2{
+  color:#4169E1;
+}
+.trigger2{
+  padding-bottom:20px;
+}
+.supporter{
+  color:#0000FF;
+}
+.supporter2{
+  color:#ff8c00;
+}
+.report{
+  color:#FF4500;
+}
+.report2{
+  color:#0000FF;
+}
+.space{
+  padding-bottom:20px;
+}
+.space2{
+  padding-bottom:50px;
+}
+.space3{
+  padding-bottom:20px;
+}
+.space4{
+  padding-bottom:20px;
+}
+.space5{
+  padding-bottom:20px;
+}
+.space6{
+  padding-bottom:50px;
+}
+.activity2{
+  color:#FF69B4;
+}
+.study{
+  color:#0000FF;
+}
+.connection{
+  color:#008000;
+}
+.value{
+  color:#ff8c00;
+}
+.title2{
+  padding-bottom:100px;
+  padding-top:100px;
+  padding-left:150px;
+  font-size:40px;
+  color:#008000;
+  background-color:#ffd700;
+}
+.end{
+  color:#000000;
+  font-size:25px;
+  padding-left:150px;
+}
+.end2{
+  color:#000000;
+  font-size:25px;
+  padding-left:485px;
+}
+.end3{
+  color:#000000;
+  font-size:25px;
+  padding-left:1000px;
+}
