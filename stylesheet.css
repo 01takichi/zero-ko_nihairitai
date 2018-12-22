@@ -1,25 +1,376 @@
-.title {
-  padding-left: 460px;
-  font-size: 40px;
-  color:#008000;
-  background-color:#ffd700;
+@charset "utf-8";
+/* CSS Document */
+
+
+/*----------------------
+	デフォルトスタイル
+-----------------------*/
+body,p,h1,h2,h3,h4,h5,h6,
+span,small,strong,
+div,ul,li,
+figure,img{
+    margin:0;
+    padding:0;
+	border:none;
+	outline:none;
+	font-size:1rem;
 }
-a{
+
+header,footer,nav,section{display:block;}
+
+html{
+	font:13px/1.3 "ヒラギノ角ゴ Pro W3";
+	-webkit-text-size-adjust:none;}
+
+li{list-style:none;
+}
+
+/*----------------------
+	レイアウト
+-----------------------*/
+body{
+	background:#FFF;
+	width:100%;
+	color:#044878;
+}
+
+a, a:visited {
   color: #0000ff;
 }
-body{
-  background-color: #00ffff;
+
+
+/*----------------------------------------
+ トップページここから
+----------------------------------------*/
+
+/* ヘッダ部分
+--------------------*/
+#head{
+	background:url(head_bg.png) repeat-x left top;
+	padding:0 14% 5px 10px;
+	overflow:hidden;
+	border-bottom:solid 1px #1CA9EB;
+	position:relative;
 }
-.Headline{
-  color:#ff8c00;
-  font-size: 28px;
+
+#head h1{
+	padding-top:20px;
 }
+
+h1 span{
+	display:block;
+	font-size:12px;
+	line-height:1.2;
+}
+
+h1{
+	font-size:24px;
+	color:#044878;
+}
+
+.left_link{
+	background:url(mail_bg.png) no-repeat left top;
+	width:42px;
+	height:42px;
+	padding-top:30px;
+	text-align:center;
+	position:absolute;
+	top:0;
+	right:1.5%;
+}
+
+
+/* ニュース部分
+--------------------*/
+#news{
+	border-width:2px 0 1px;
+}
+
+#news .tyui{
+	background:url(title_new.gif) repeat-y left center;
+	min-height:68px;
+	padding-top:1%;
+	padding-left:15%;
+	border-width:1px 0;
+}
+
+#news .tyui li{
+	margin-bottom:1%;
+	list-style:disc inside;}
+
+#news .tyui li a{
+	text-decoration:underline;}
+
+
+/* サイト説明部分
+--------------------*/
+.desc{
+	margin-bottom:1%;
+	border-width:2px 0 1px;
+}
+
+
+/* 広告部分
+--------------------*/
+.ad{
+	width:95%;
+	text-align:center;
+	margin:5px auto 0;
+	padding:3% 1% 2%;
+	border:solid 1px #87CEEB;
+	outline:solid 3px #1CA9EB;}
+
+.ad img{
+	width:99%;
+	max-width:320px;
+	height:auto;}
+
+
+/* カテゴリ部分
+--------------------*/
+#categories{
+	margin:2% 0 1%;
+	border-bottom:solid 1px #87CEEB;
+}
+
+.category{
+	background-image: -moz-linear-gradient(top, #FFF, #EBEBEB);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#FFF), to(#EBEBEB));
+	background-image: -o-linear-gradient(top, #FFF, #EBEBEB);
+	background-image: linear-gradient(top, #FFF, #EBEBEB);
+	overflow:hidden;
+	border-top:solid 1px #87CEEB;
+	border-bottom:solid 1px #F4F7F2;
+	}
+
+.title_icon{
+	background:url(sample_title_bg.jpg) repeat left top;
+	margin:3% 10px;
+	padding:3% 4%;
+	border:solid 1px #FFF;
+	border-radius:5px;
+	color:#044878;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	text-shadow: 0px 1px 1px #FFF;
+	float:left;}
+
+.title_icon2{
+	margin:3% 0;
+	text-align:center;
+	float:left;}
+
+h2 a{
+	background:url(link_arrow.png) no-repeat 100% 50%;
+	padding:6% 7% 6% 0;
+	display:block;
+	color:#FB9287;
+}
+
+h2 a span{
+	display:block;
+	font-size:18px;
+}
+
+
+/* フッター部分
+--------------------*/
+.foot_link{
+	overflow:hidden;
+}
+
+.top{
+	background:url(top.jpg) repeat left top;
+	margin:2% 2% 0 77%;
+	padding:2% 3%;
+	display:block;
+	border:solid 1px #4A9CD5;
+	border-radius:5px 5px 0px 0px;
+	text-align:center;
+	font-weight:bold;
+	text-shadow: 0px 1px 1px #044878;
+	-moz-box-shadow:0px 0px 1px 1px #044878;
+	-webkit-box-shadow:0px 0px 1px 1px #044878;
+	box-shadow:0px 0px 1px 1px #044878;
+  color: #1CA9EB!important;
+  text-decoration: none ;
+}
+
+.back{
+	background:url(link_bg.gif) repeat left top;
+	margin:2% 2% 0 54%;
+	padding:2% 3%;
+	display:block;
+	border:solid 1px #4A9CD5;
+	border-radius:5px 5px 0px 0px;
+	text-align:center;
+	font-weight:bold;
+	text-shadow: 0px 1px 1px #a;
+	-moz-box-shadow:0px 0px 1px 1px #044878;
+	-webkit-box-shadow:0px 0px 1px 1px #044878;
+	box-shadow:0px 0px 1px 1px #044878;
+	float:left;
+}
+
+address{
+	background:#044878;
+	padding:3% 0;
+	text-align:center;
+	color:#87CEEB;
+}
+
+address a{
+	color:#87CEEB!important;
+}
+
+
+/*----------------------------------------
+	カテゴリページ一覧ここから
+----------------------------------------*/
+
+/* カテゴリタイトル部分
+--------------------*/
+#categories_title{
+	margin:1% 0;
+	border-top:solid 2px #1CA9EB;
+	border-bottom:solid 1px #F4F7F2;
+}
+
+#categories_title .category{
+	border-top-color:#FFF;
+	color:#333631;
+}
+
+#categories_title h2{
+	margin-left:2%;
+	padding:3% 7% 1% 0;
+	font-size:18px;}
+
+
+/* 記事部分
+--------------------*/
+#sections{
+	margin:2% 0 1%;
+	border-bottom:solid 1px #87CEEB;
+}
+
+.boxes{
+	background-image: -moz-linear-gradient(top, #FFF, #EBEBEB);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#FFF), to(#EBEBEB));
+	background-image: -o-linear-gradient(top, #FFF, #EBEBEB);
+	background-image: linear-gradient(top, #FFF, #EBEBEB);
+	overflow:hidden;
+	border-top:solid 1px #87CEEB;
+	border-bottom:solid 1px #F4F7F2;
+	}
+
+.boxes img{
+	max-width:82px;
+	max-height:82px;
+	margin:3% 2% 2%;
+	float:left;}
+
+.boxes h3 a{
+	background:url(link2_bg.gif) repeat-y 100% 50%;
+	min-height:82px;
+	margin-left:2%;
+	padding:3.5% 17% 2% 0;
+	display:block;
+	color:#FB9287;
+}
+
+.boxes h3 a strong{
+	padding-left:3px;
+	border-left:solid 3px #E31414;
+	font-size:16px;}
+
+.boxes h3 a span{
+	margin-top:1%;
+	display:block;
+	font-size:13px;
+	font-weight:normal;
+	color:#333631;}
+
+
+/* フッタ-カテゴリリンク群
+--------------------*/
+#links{
+	margin:2% 0 3%;
+	padding:5% 3%;
+	border:dotted #87CEEB;
+	border-width:1px 0;
+	text-align:center;
+}
+
+
+
+/*----------------------------------------
+	記事ページここから
+----------------------------------------*/
+
+/* パンくず
+--------------------*/
+#pan{
+	margin:1% 0;
+	padding:2% 4%;
+	border:solid #1CA9EB;
+	border-width:2px 0 1px;
+}
+
+/* 記事部分
+--------------------*/
+#kiji h2{
+	background:url(title_bg.gif) repeat;
+	margin:4% 3% 3%;
+	padding:2%;
+	border-left:solid 4px #E31414;
+}
+
+#img_bg{
+	background:url(img_bg.gif) repeat;
+	margin:0 3% 2%;
+	padding:5%;
+	overflow:hidden;
+	text-align:center;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;}
+
+#img_bg img{
+	max-width:100%;
+	max-height:155px;
+}
+
+#kiji p{
+	margin:2% 1% 4%;
+	padding:2%;
+}
+
+.btn1{
+	background:url(btn_bg.jpg) repeat left top;
+	width:70%;
+	margin:0 auto 7%;
+	padding:5%;
+	display:block;
+	text-align:center;
+	text-shadow: 0px 1px 1px #044878;
+	font-size:20px;
+	border:solid 1px #1CA9EB;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0px 0px 1px 1px #044878;
+	-webkit-box-shadow:0px 0px 1px 1px #044878;
+	box-shadow:0px 0px 1px 1px #044878;
+}
+
 .box20 {
     position: relative;
     padding: 0.25em 1em;
-    margin: 2em 0;
     top: 0;
     background: #efefef;
+    margin:5px 5px;
 }
 .box20:before, .box20:after{
     position: absolute;
@@ -45,13 +396,13 @@ body{
 .box20 p {
     margin: 0;
     padding: 0;
+    color:#000000;
 }
-table{
-  font-size:20px;
+
+.Headline{
+  color:#ff8c00;
 }
-table td{
-  padding:20px;
-}
+
 .person{
   background-color:#3CB371;
 }
@@ -98,18 +449,6 @@ ul li, ol li {
 .point li{
   color:#0000FF;
 }
-li{
-  font-size:20px
-}
-.notes{
-  padding-bottom:50px;
-}
-.continue{
-  padding-bottom:50px;
-}
-.list{
-  padding-bottom:20px;
-}
 .partner{
   color:#FF4500
 }
@@ -118,9 +457,6 @@ li{
 }
 .trigger1,.trigger2{
   color:#4169E1;
-}
-.trigger2{
-  padding-bottom:20px;
 }
 .supporter{
   color:#0000FF;
@@ -133,24 +469,6 @@ li{
 }
 .report2{
   color:#0000FF;
-}
-.space{
-  padding-bottom:20px;
-}
-.space2{
-  padding-bottom:50px;
-}
-.space3{
-  padding-bottom:20px;
-}
-.space4{
-  padding-bottom:20px;
-}
-.space5{
-  padding-bottom:20px;
-}
-.space6{
-  padding-bottom:50px;
 }
 .activity2{
   color:#FF69B4;
@@ -165,25 +483,15 @@ li{
   color:#ff8c00;
 }
 .title2{
-  padding-bottom:100px;
-  padding-top:100px;
-  padding-left:150px;
-  font-size:40px;
   color:#008000;
   background-color:#ffd700;
 }
 .end{
   color:#000000;
-  font-size:25px;
-  padding-left:150px;
 }
 .end2{
   color:#000000;
-  font-size:25px;
-  padding-left:485px;
 }
 .end3{
   color:#000000;
-  font-size:25px;
-  padding-left:1000px;
 }
